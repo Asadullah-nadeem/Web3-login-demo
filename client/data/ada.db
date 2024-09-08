@@ -1,0 +1,4 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    eth_address VARCHAR(42) NOT NULL UNIQUE
+);
